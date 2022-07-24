@@ -1,6 +1,7 @@
 import Libaries from "../components/Libaries";
 import Projects from "../components/Projects";
 import RecentPosts from "../components/RecentPosts";
+import { Click } from "../lib/playPop";
 import "../styles/pages/index.css";
 
 export default function Landing() {
@@ -9,7 +10,7 @@ export default function Landing() {
       <div className="info">
         <h1>Heyo, im saige!</h1>
         <p>
-          <a href="/prns" data-turn="left">
+          <a onClick={() => Click("/prns")} data-turn="left">
             she/her
           </a>{" "}
           Just your average girl making stuff with your favorite frameworks and

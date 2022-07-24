@@ -19,6 +19,7 @@
     margin-bottom: 1rem;
     border-radius: 5px;
     font-size: 17px;
+    cursor: pointer;
 }
 .libaries a:nth-child(odd) {
     background-color: var(--yellow);

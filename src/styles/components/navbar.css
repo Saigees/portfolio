@@ -11,6 +11,7 @@
   margin-right: 1rem;
 }
 .navbar ul li a {
+  cursor: pointer;
   background-color: var(--cream-dark);
   padding: 10px 10px 10px 10px;
   color: var(--black);

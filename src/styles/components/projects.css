@@ -43,3 +43,26 @@ transform: scale(1.02);
 .projects .list .project .header p {
     opacity: .5;
 }
+
+@media screen and (max-width: 836px) {
+    .projects .list .project {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .projects .list .project .header .dot {
+        display: none;
+    }
+    .projects .list .project .header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .projects .list .project .header h1  {
+        margin-bottom: -.5rem;
+    }
+    .projects .list .project .header p:not(.dot) {
+        margin-bottom: 1rem;
+    }
+}

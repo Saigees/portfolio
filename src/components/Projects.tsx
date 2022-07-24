@@ -1,4 +1,5 @@
 import projects from "../data/projects";
+import playPop, { Click } from "../lib/playPop";
 import "../styles/components/projects.css";
 
 export default function Projects() {
@@ -10,14 +11,11 @@ export default function Projects() {
           return (
             <div
               className="project"
-              onClick={() => {
-                window.location.href =
-                  project.url || project.githubUrl || "/404";
-              }}
+              onClick={() => Click(project.url || project.githubUrl || "/404")}
             >
               <div className="header">
                 <h1>{project.name}</h1>
-                <p>•</p>
+                <p className="dot">•</p>
                 <p>{project.position}</p>
               </div>
               <p>{project.description}</p>

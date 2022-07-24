@@ -9,7 +9,7 @@ export default [
     position: "Founder",
   },
   {
-    name: "FlightPKG Installer",
+    name: "Flight Installer",
     description:
       "Created the frontend for the flightpkg installer from their design mockups. Built with nextjs, tauri and raw css.",
     position: "Front end dev",
