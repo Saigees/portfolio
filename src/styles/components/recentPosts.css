@@ -1,0 +1,58 @@
+.posts  {
+    margin-top: 2rem;
+}
+
+.posts h1 {
+    margin-bottom: .5rem;
+    font-size: 18px;
+    color: var(--brown);
+    opacity: .2;
+}
+
+.posts .list {
+    display: flex;
+    flex-direction: column;
+}
+
+.posts .list a {
+    --hover: var(--blue);
+    position: relative;
+    width: fit-content;
+    margin-bottom: .5rem;
+    color: var(--brown);
+}
+
+.posts .list a:nth-child(odd) {
+    --hover: var(--pink)
+}
+
+.posts .list a::after {
+    position: absolute;
+    content: "";
+    background-color: var(--hover);
+    width: 0%;
+    height: 10%;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.posts .list a::before {
+        position: absolute;
+    content: "";
+    background-color: var(--brown);
+    opacity: .3;
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    top: 36%;
+    bottom: 0;
+    left: -15px;
+    right: 100%;
+    z-index: -1;
+}
+.posts .list a:hover::after  {
+    content: "";
+    width: 100%;
+}

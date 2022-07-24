@@ -1,0 +1,45 @@
+.projects {
+    margin-top: 2rem;
+}
+
+.projects .title {
+    margin-bottom: .5rem;
+    font-size: 18px;
+    color: var(--brown);
+    opacity: .2;
+}
+.projects .list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: .9rem;
+}
+
+.projects .list .project {
+    max-width: 48%;
+    cursor: pointer;
+    background-color: var(--cream-dark);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.projects .list .project:hover {
+transform: scale(1.02);
+   border: 2px solid var(--brown-fade);
+}
+
+.projects .list .project .header {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.projects .list .project .header h1 {
+    font-size: 23px;
+}
+
+.projects .list .project .header p {
+    opacity: .5;
+}

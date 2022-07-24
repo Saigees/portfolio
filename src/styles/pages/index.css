@@ -1,0 +1,13 @@
+.info h1 {
+    margin-bottom: .5rem;
+}
+.info p {
+    max-width: 600px;
+    line-height: 1.4rem;
+}
+
+.info p a {
+      background-color: var(--pink);
+      padding: 2px 5px;
+      border-radius: 4px;
+}

@@ -1,0 +1,9 @@
+.page404 span {
+    display: flex;
+    align-items: center;
+}
+.page404 span a {
+    margin-right: .35rem;
+    color: var(--pink);
+    margin-top: .15rem;
+}

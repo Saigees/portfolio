@@ -1,0 +1,58 @@
+.dash {
+  height: 2px;
+  background-color: var(--cream-dark);
+  border-radius: 100px;
+  margin: 1rem 0 1rem 0;
+}
+.blog .main h1,
+.blog .main p,
+.blog .main h2,
+.blog .main h3,
+.blog .main h4 {
+  margin: 1rem 0 1rem 0;
+  color: var(--brown);
+}
+.blog .main .fade {
+  opacity: 0.5;
+}
+
+code,
+pre {
+  border-radius: 8px;
+  margin: 1rem 0 1rem 0;
+}
+code,
+pre,
+code span {
+  font-family: var(--font-mono);
+}
+
+.quote {
+  position: relative;
+}
+
+.quote::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  right: 100%;
+  bottom: 0;
+  background-color: var(--cream-dark);
+  z-index: -1;
+  width: 5px;
+  height: 100%;
+  border-radius: 3px 0 0 3px;
+}
+
+.list li {
+  list-style: none;
+}
+
+.list li::before {
+  content: "\2022";
+  color: var(--brown);
+  opacity: 0.5;
+  display: inline-block;
+  width: 1em;
+}

@@ -1,0 +1,28 @@
+.libTitle {
+    margin-top: 2rem;
+    font-size: 18px;
+    color: var(--brown);
+    opacity: .2;
+}
+
+.libaries {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: .6rem;
+}
+
+.libaries a {
+    background-color: var(--blue);
+    margin-right: 1rem;
+    padding: 3px 6px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.libaries a:nth-child(odd) {
+    background-color: var(--yellow);
+}
+.libaries a:nth-child(3n) {
+    background-color: var(--pink);
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "location": "/github",
+        "destination": "https://github.com/Saigees"
+    },
+    {
+        "location": "/twitter",
+        "destination": "https://twitter.com/SaigeInLove"
+    },
+    {
+        "location": "/twitch",
+        "destination": "https://www.twitch.tv/saigeissimping"
+    },
+    {
+        "location": "/discord",
+        "destination": "https://discord.com/users/974025524546531380"
+    }
+]

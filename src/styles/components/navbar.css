@@ -1,0 +1,28 @@
+.navbar {
+  margin-bottom: 1.25rem;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  margin-right: 1rem;
+}
+.navbar ul li a {
+  background-color: var(--cream-dark);
+  padding: 10px 10px 10px 10px;
+  color: var(--black);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.navbar ul li:nth-child(odd) a:hover {
+    transform: scale(1.5) rotate(-10deg);
+}
+.navbar ul li a:hover {
+  transform: scale(1.5) rotate(10deg);
+}

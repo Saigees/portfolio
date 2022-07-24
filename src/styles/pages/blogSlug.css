@@ -1,0 +1,7 @@
+.blog .info .author {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    opacity: .5;
+    margin-bottom: .5rem;
+}

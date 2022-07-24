@@ -1,0 +1,54 @@
+[
+    {
+        "name": "reactjs",
+        "url": "https://reactjs.org/"
+    },
+    {
+        "name": "nextjs",
+        "url": "https://nextjs.org/"
+    },
+    {
+        "name": "remix",
+        "url": "https://remix.run/"
+    },
+    {
+        "name": "Docker",
+        "url": "https://www.docker.com/"
+    },
+    {
+        "name": "MongoDB",
+        "url": "https://www.mongodb.com/"
+    },
+    {
+        "name": "DiscordJS",
+        "url": "https://discord.js.org/#/"
+    },
+    {
+        "name": "Typescript",
+        "url": "https://www.typescriptlang.org/"
+    },
+    {
+        "name": "Mongoose",
+        "url": "https://mongoosejs.com/"
+    },
+    {
+        "name": "Tailwindcss",
+        "url": "https://tailwindcss.com/"
+    },
+    {
+        "name": "Java",
+        "url": "https://www.java.com/en/"
+    },
+    {
+        "name": "VS Code",
+        "url": "https://code.visualstudio.com/"
+    },
+    {
+        "name": "NodeJS",
+        "url": "https://nodejs.org"
+    },
+    {
+        "name": "Pnpm",
+        "url": "https://pnpm.io/"
+    }
+]
