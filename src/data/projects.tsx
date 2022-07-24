@@ -15,4 +15,10 @@ export default [
     position: "Front End Dev",
     url: "https://github.com/flightpkg/installer",
   },
+  {
+    name: "@saige/urlbind",
+    description: "A url binding library for javascript. Easily format your urls, Remove duped slashs, handle params & queries better and more.",
+    position: "Founder",
+    url: "https://www.npmjs.com/package/@saige/urlbind",
+  },
 ] as Project[];
