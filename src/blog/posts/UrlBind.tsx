@@ -15,6 +15,7 @@ export default class URLBind extends Post {
   public render() {
     return (
       <>
+        <p className="fade">This project was inspired by <a onClick={() => Click("https://urlcat.dev")}>urlcat.dev</a></p>
         <h3>Installation</h3>
         <Highlighter language="bash">{`# NPM
 npm i @saige/urlbind
