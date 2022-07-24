@@ -8,7 +8,7 @@ export default function Landing() {
   return (
     <>
       <div className="info">
-        <h1>Heyo, im saige!</h1>
+        <h1>Heyo, I'm saige!</h1>
         <p>
           <a onClick={() => Click("/prns")} data-turn="left">
             she/her

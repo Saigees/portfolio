@@ -1,9 +1,12 @@
+const sounds = ["pop", "news", "eshop", "enter_back"]
+
 const playPop = () => {
     return new Promise((res, rej) => {
-        void new Audio('/pop.mp3').play().catch(() => null).then(() => {
+        const sound = sounds[Math.floor(Math.random() * sounds.length)]
+        void new Audio(`/pop.mp3`).play().catch(() => null).then(() => {
             setTimeout(() => {
                 res(0)
-            }, 500);
+            }, 600);
         })
     })
 }

@@ -18,6 +18,7 @@
   border-radius: 10px;
   display: flex;
   align-items: center;
+  position: relative;
   justify-content: center;
   transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -26,4 +27,39 @@
 }
 .navbar ul li a:hover {
   transform: scale(1.5) rotate(10deg);
+}
+.navbar ul li a span {
+  position: absolute;
+  top: 0;
+  bottom: 100%;
+  left: -28%;
+  right: 0;
+  opacity: 0;
+  background-color: var(--cream-dark);
+  border-radius: 5px;
+  height: 27px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  transform: scale(0);
+  transition: .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.navbar ul li a span.active {
+    top: -115%;
+  bottom: 100%;
+  left: -28%;
+  right: 0;
+  opacity: 1;
+  transform: scale(1);
+}
+
+@media screen and (max-width: 386px) {
+  .navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+  }
 }

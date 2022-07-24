@@ -1,10 +1,10 @@
 [
     {
-        "name": "reactjs",
+        "name": "reactJS",
         "url": "https://reactjs.org/"
     },
     {
-        "name": "nextjs",
+        "name": "nextJS",
         "url": "https://nextjs.org/"
     },
     {
@@ -32,7 +32,7 @@
         "url": "https://mongoosejs.com/"
     },
     {
-        "name": "Tailwindcss",
+        "name": "TailwindCSS",
         "url": "https://tailwindcss.com/"
     },
     {
@@ -48,7 +48,7 @@
         "url": "https://nodejs.org"
     },
     {
-        "name": "Pnpm",
+        "name": "PNPM",
         "url": "https://pnpm.io/"
     }
 ]

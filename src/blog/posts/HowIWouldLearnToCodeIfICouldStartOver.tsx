@@ -1,7 +1,7 @@
 import { Post } from "../Post";
 
 export default class HowIWouldLearnToCodeIfICouldStartOver extends Post {
-  public name: string = "How i would learn to code (if i could start over)";
+  public name: string = "How I would learn to code (If I could start over)";
   public slug: string = "how-i-would-learn-to-code-if-i-could-start-over";
   public date: number = new Date("23 june 2022").getTime();
   public hidden: boolean = false;
